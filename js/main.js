@@ -1,7 +1,7 @@
 'use strict';
 
 App.scene = new Scene($('#svg'));
-App.structures = [new CallStack(), new Fib(), new ArraysRec(), new BSearch(), new Hanoi(), new MergeSort(), new Backtrack()];
+App.structures = [new CallStack(), new Fib(), new ArraysRec(), new BSearch(), new Hanoi(), new MergeSort(), new Backtrack(), new StructsRec()];
 
 function setBusy(busy) {
   App.busy = busy;

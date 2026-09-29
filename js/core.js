@@ -263,7 +263,7 @@ function nextStep() {
 /* =========================================================
    Code panel with tiny C syntax highlighter
    ========================================================= */
-const TOKENS = /(\/\/.*$)|("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)')|(#\w+)|\b(int|void|char|float|double|long|short|unsigned|signed|const|return|if|else|while|do|for|switch|case|default|break|continue|struct|typedef|sizeof|NULL|static|bool)\b|\b(size_t|INT_MAX|N|Point|Bad|Good)\b|\b([A-Za-z_]\w*)(?=\s*\()|\b(\d+(?:\.\d+)?)\b/g;
+const TOKENS = /(\/\/.*$)|("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)')|(#\w+)|\b(int|void|char|float|double|long|short|unsigned|signed|const|return|if|else|while|do|for|switch|case|default|break|continue|struct|typedef|sizeof|NULL|static|bool)\b|\b(size_t|INT_MAX|N|Point|Bad|Good|Node|TNode)\b|\b([A-Za-z_]\w*)(?=\s*\()|\b(\d+(?:\.\d+)?)\b/g;
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 function highlight(line) {

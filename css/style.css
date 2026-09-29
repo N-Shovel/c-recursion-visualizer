@@ -230,6 +230,7 @@ h1 { font-size: 18px; margin: 0; letter-spacing: -.01em; }
 .node.tag.muted .tagtxt { fill: var(--muted); font-weight: 400; font-size: 12px; }
 .node.tag.ok .tagtxt { fill: var(--found); }
 .node.tag.bad .tagtxt { fill: var(--del); }
+.node.tag.cmp .tagtxt { fill: var(--cmp); }
 
 .node.cur circle, .node.cur rect { stroke: var(--cur); fill: color-mix(in srgb, var(--cur) 20%, var(--node)); stroke-width: 3; }
 .node.path circle, .node.path rect { stroke: var(--path); fill: color-mix(in srgb, var(--path) 16%, var(--node)); }

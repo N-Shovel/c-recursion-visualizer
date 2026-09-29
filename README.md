@@ -17,6 +17,7 @@ It is a companion to [C Fundamentals Visualizer](https://github.com/N-Shovel/c-f
 | 5 | **Tower of Hanoi** | `hanoi(n, from, to, via)` moving the disks while the call stack shows the current sub-problem (2ⁿ − 1 moves) |
 | 6 | **Merge Sort** | the divide-and-conquer tree: splitting down to single elements, then merging back up |
 | 7 | **Backtracking** | all subsets (take / skip decision tree) and all permutations (swap, recurse, undo) |
+| 8 | **Structs** | recursion over self-referential structs: `length(head)` and `printReverse(head)` on a `struct Node` linked list; `insert(root, x)`, `height(root)` and `inorder(root)` on a `struct TNode` binary search tree, with the `NULL` base cases and the node addresses shown |
 
 ## Features
 
@@ -53,6 +54,7 @@ js/bsearch.js    # Binary Search
 js/hanoi.js      # Tower of Hanoi
 js/mergesort.js  # Merge Sort
 js/backtrack.js  # Backtracking
+js/structs.js    # Structs (linked list + BST)
 js/main.js       # UI wiring
 ```
 
